@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ahmadatiyah</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>Ahmad Atiyah</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+	<%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+	<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" %>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+	<div class="navbar-fixed">
+		<nav>
+	    <div class="nav-wrapper">
+	      <a href="/" class="brand-logo center"><%= image_tag ("logo.png") %></a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+					<li><a class="tooltipped" href="#" data-position="bottom" data-delay="20" data-tooltip="Articles">Articles</a></li>
+	        <li><a class="tooltipped" href="#" data-position="bottom" data-delay="20" data-tooltip="Projects">Projects</a></li>
+	        <li><a class="tooltipped" href="#" data-position="bottom" data-delay="20" data-tooltip="Contact Me">Contact Me</a></li>
+	        <li><a class="tooltipped" href="#" data-position="bottom" data-delay="20" data-tooltip="Sign in">Sign In</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><%= image_tag ("me.jpg"), class: "responsive-img" %></li>
+					<li><a class="tooltipped" href="#" data-position="right" data-delay="20" data-tooltip="Articles">Articles</a></li>
+					<li><a class="tooltipped" href="#" data-position="right" data-delay="20" data-tooltip="Projects">Projects</a></li>
+					<li><a class="tooltipped" href="#" data-position="right" data-delay="20" data-tooltip="Contact Me">Contact Me</a></li>
+					<li><a class="tooltipped" href="#" data-position="right" data-delay="20" data-tooltip="Sign in">Sign In</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	</div>
+	<%= yield %>
 
-<%= yield %>
-
+	<footer>
+		<div class="footer-copyright">
+	    <div class="container">
+		    <div class="row">
+		    	<h6 class="white-text text-lighten-4 left">© 2014 Ahmad Atiyah</h6>
+					<a href="https://www.linkedin.com/in/ahmadatiyah" target="_blank"><i class="fa fa-linkedin fa-2x right white-text" aria-hidden="true"></i></a>
+		      <a href="https://github.com/aatiyah" target="_blank"><i class="fa fa-github-alt fa-2x right white-text" aria-hidden="true"></i></a>
+		      <a href="https://www.twitter.com/ahmad_atiyah" target="_blank"><i class="fa fa-twitter fa-2x right white-text" aria-hidden="true"></i></a>         
+		    </div>
+	    </div>
+	  </div>
+  </footer>
 </body>
 </html>
