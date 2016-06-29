@@ -1,28 +1,7 @@
-== README
+== WELCOME TO MY PERSONAL APP (UNDER CONSTRUCTION)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this app I will be writing short articles about my journey with Ruby, where I will be sharing stories and tips that I find/found helpful. I will also showcase past and future apps that I built. Please feel free to contact me if you have any questions or comments, any feedback will be highly appreciated. 
 
-Things you may want to cover:
+I will be updating this README file as I update the app. 06/28/2016
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Current using: ruby 2.3.0p0
