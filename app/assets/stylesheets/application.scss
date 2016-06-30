@@ -10,13 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
  */
-@import "materialize";
-@import url(http://fonts.googleapis.com/css?family=Roboto);
 
-$nav-bg-color:		   #424242;
+$nav-bg-color:		     #424242;
 $primary-color-dark:   #616161;
 $primary-color:        #9E9E9E;
 $primary-color-light:  #F5F5F5;
@@ -33,9 +30,9 @@ $divider-color:        #B6B6B6;
 body {
 	font-family: 'Raleway', sans-serif;
 	display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  background-color: $primary-color-dark;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: $primary-color-dark;
 }
 
 main {
@@ -43,7 +40,7 @@ main {
 }
 
 nav {
-	background-color: $nav-bg-color;	
+	background-color: $nav-bg-color !important;	
 	height: 70px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -106,3 +103,7 @@ footer.page-footer {
 	margin-right: 15px;
 }
 
+
+@import "materialize";
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import "pygments";
