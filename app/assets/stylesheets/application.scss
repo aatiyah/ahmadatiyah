@@ -95,15 +95,11 @@ footer.page-footer {
 	}
 }
 
-#my-projects a {
-	padding-left: 10px;
-}
-
 #about-me {
 	margin-right: 15px;
 }
 
-#article {
+#article, #project {
 	p {
 		padding-bottom: 20px;
 	}
@@ -111,6 +107,10 @@ footer.page-footer {
 	h6 {
 		margin-top: 15px;
 		text-transform: uppercase;
+	}
+
+	.fa {
+		margin-left: 10px;
 	}
 }
 

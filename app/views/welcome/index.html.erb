@@ -10,57 +10,22 @@
 			<div id="article">
 				<% @articles.each do |article| %>
 						<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
-						<%= truncate(article.content, length: 200) %> <%= link_to "Read More", article_path(article.id) %>
+						<%= truncate(article.content, length: 200) %> <br> <%= link_to "Read More", article_path(article.id) %>
 				<% end %>
 			</div>
-			<br>
 		</div>
 
 		<div class="col s12 m12 l3" id="my-projects">
 			<h5 class="yellow-text">PROJECTS I'VE BUILT</h5><hr>
-			<div class="project1">
-				<p>
+			<div id="project">
+				<% @projects.each do |project| %>
 					<h6 class="yellow-text text-lighten-3">
-					UGIFTME
-					<a class="yellow-text text-lighten-3 right" href="http://ugiftme.herokuapp.com" target="_blank">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-					<a class="yellow-text text-lighten-3 right" href="https://github.com/aatiyah/giftme" target="_blank">
-						<i class="fa fa-github-alt" aria-hidden="true"></i>
-					</a>
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
-			</div>
-			<br>
-			<div class="project2">
-				<p>
-					<h6 class="yellow-text text-lighten-3">
-					ARTICLE 2
-					<a class="yellow-text text-lighten-3 right" href="#" target="_blank">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-					<a class="yellow-text text-lighten-3 right" href="#" target="_blank">
-						<i class="fa fa-github-alt" aria-hidden="true"></i>
-					</a>
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
-			</div>
-			<br>
-			<div class="project3">
-				<p>
-					<h6 class="yellow-text text-lighten-3">
-					ARTICLE 3
-					<a class="yellow-text text-lighten-3 right" href="#" target="_blank">
-						<i class="fa fa-home" aria-hidden="true"></i>
-					</a>
-					<a class="yellow-text text-lighten-3 right" href="#" target="_blank">
-						<i class="fa fa-github-alt" aria-hidden="true"></i>
-					</a>
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
+						<%= project.title %>
+						<%= link_to '<i class="fa fa-home" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
+						<%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
+					</h6>
+					<%= truncate(project.description, length: 200) %> <br> <%= link_to "Read More", project_path(project.id) %>
+				<% end %>
 			</div>
 		</div>
 	</div>
