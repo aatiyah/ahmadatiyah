@@ -1,5 +1,5 @@
 <div class="welcome">
-	<div class="row white-text">
+	<div class="row">
 		<div class="col s12 m12 l5" id="about-me">
 			<h5 class="yellow-text">ABOUT ME</h5><br><hr>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.</p>
@@ -21,8 +21,8 @@
 				<% @projects.each do |project| %>
 					<h6 class="yellow-text text-lighten-3">
 						<%= project.title %>
-						<%= link_to '<i class="fa fa-home" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
-						<%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
+						<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
+						<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
 					</h6>
 					<%= truncate(project.description, length: 200) %> <br> <%= link_to "Read More", project_path(project.id) %>
 				<% end %>
