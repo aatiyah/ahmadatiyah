@@ -7,32 +7,13 @@
 		
 		<div class="col s12 m12 l3" id="my-articles">
 			<h5 class="yellow-text">ARTICLES I'VE WRITTEN</h5><hr>
-			<div class="article1">
-				<p>
-					<h6 class="yellow-text text-lighten-3">
-					ARTICLE 1
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
+			<div id="article">
+				<% @articles.each do |article| %>
+						<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
+						<%= truncate(article.content, length: 200) %> <%= link_to "Read More", article_path(article.id) %>
+				<% end %>
 			</div>
 			<br>
-			<div class="article2">
-				<p>
-					<h6 class="yellow-text text-lighten-3">
-					ARTICLE 2
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
-			</div>
-			<br>
-			<div class="article3">
-				<p>
-					<h6 class="yellow-text text-lighten-3">
-					ARTICLE 3
-				</h6>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos suscipit excepturi atque dolorem nostrum aperiam consectetur minima, sequi dolor fugit omnis ad est mollitia facilis, aliquid voluptas harum. Alias, sapiente.
-				</p>
-			</div>
 		</div>
 
 		<div class="col s12 m12 l3" id="my-projects">
