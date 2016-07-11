@@ -17,15 +17,15 @@
 	      <a href="/" class="brand-logo"><%= image_tag('logo2.png', id: "logo") %></a>
 	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      <ul class="right hide-on-med-and-down topnav">
-	        <li><a href="#">Articles</a></li>
-	        <li><a href="#">Projects</a></li>
+	        <li><%= link_to "Articles", articles_path %></li>
+	        <li><%= link_to "Projects", projects_path %></li>
 	        <li><a href="#">Contactme</a></li>
 	        <li><a href="#">Sign In</a></li>
 	      </ul>
 	      <ul class="side-nav center" id="mobile-demo">
 	      	<li class="sidenav-img"><%= image_tag('me.jpg', class: "responsive-img") %></li>
-	        <li><a href="#">Articles</a></li>
-	        <li><a href="#">Projects</a></li>
+	        <li><%= link_to "Articles", articles_path %></li>
+	        <li><%= link_to "Projects", projects_path %></li>
 	        <li><a href="#">Contactme</a></li>
 	        <li><a href="#">Sign In</a></li>
 	      </ul>

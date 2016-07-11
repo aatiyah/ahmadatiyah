@@ -1,7 +1,2 @@
 == WELCOME TO MY PERSONAL APP (UNDER CONSTRUCTION)
 
-In this app I will be writing short articles about my journey with Ruby, where I will be sharing stories and tips that I find/found helpful. I will also showcase past and future apps that I built. Please feel free to contact me if you have any questions or comments, any feedback will be highly appreciated. 
-
-I will be updating this README file as I update the app. 06/28/2016
-
-* Current using: ruby 2.3.0p0
