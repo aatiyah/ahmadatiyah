@@ -19258,10 +19258,3 @@ Migrating to CreateProjects (20160711200627)
   [1m[36mSQL (2.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20160711200627"]]
   [1m[35m (198.4ms)[0m  commit transaction
   [1m[36mActiveRecord::SchemaMigration Load (7.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  [1m[36mActiveRecord::SchemaMigration Load (4.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Migrating to CreateProjects (20160711204415)
-  [1m[35m (0.2ms)[0m  begin transaction
-  [1m[36m (7.8ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "github" varchar, "web" varchar, "image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
-  [1m[35mSQL (1.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160711204415"]]
-  [1m[36m (83.8ms)[0m  [1mcommit transaction[0m
-  [1m[35mActiveRecord::SchemaMigration Load (4.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
