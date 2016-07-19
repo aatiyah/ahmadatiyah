@@ -1,29 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Articles</h1>
+<div class="col s12 m12 l3" id="my-articles">
+	<h5 class="yellow-text">ARTICLES I'VE WRITTEN</h5><hr>
+	<div id="article">
+		<% @articles.each do |article| %>
+				<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
+				<p><%= article.content %></p>
+				<td><%= link_to 'Show', article %>
+        <%= link_to 'Edit', edit_article_path(article) %>
+        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
+		<% end %>
+	</div>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @articles.each do |article| %>
-      <tr>
-        <td><%= article.title %></td>
-        <td><%= article.content %></td>
-        <td><%= link_to 'Show', article %></td>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
 
 <%= link_to 'New Article', new_article_path %>
+
+<%= will_paginate @articles, class: "pagination center" %>
