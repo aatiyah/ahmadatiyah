@@ -12,6 +12,7 @@ gem 'materialize-sass'
 gem 'pg'
 gem 'pygments.rb'
 gem 'redcarpet'
+gem 'friendly_id', '~> 5.1'
 
 group :development, :test do
   gem 'byebug'
