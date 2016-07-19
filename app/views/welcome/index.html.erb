@@ -10,7 +10,7 @@
 			<div id="article">
 				<% @articles.each do |article| %>
 						<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
-						<%= truncate(article.content, length: 200) %> <br> <%= link_to "Read More", article_path(article.id) %> 
+						<%= truncate(article.content, length: 200) %> <br> <%= link_to "Read More", article %> 
 				<% end %>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 						<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
 						<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
 					</h6>
-					<%= truncate(project.description, length: 200) %> <br> <%= link_to "Read More", project_path(project.id) %>
+					<%= truncate(project.description, length: 200) %> <br> <%= link_to "Read More", project %>
 				<% end %>
 			</div>
 		</div>
