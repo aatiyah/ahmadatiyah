@@ -135,7 +135,7 @@ footer.page-footer {
 }
 
 .narrow-margin {
-	@include left_right_margin(50px, 6000px, max-width);
+	@include left_right_margin(50px, 600px, max-width);
 }
 
 @import "materialize";
