@@ -5,7 +5,7 @@
 	<div id="article">
 		<% @articles.each do |article| %>
 				<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
-				<p><%= article.content %></p>
+				<p><%= markdown(article.content) %></p>
 				<td><%= link_to 'Show', article %>
         <%= link_to 'Edit', edit_article_path(article) %>
         <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
