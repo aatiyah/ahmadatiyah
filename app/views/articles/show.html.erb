@@ -1,11 +1,10 @@
-<div>
+<div class="narrow-margin" id="article-show">
 	<p id="notice"><%= notice %></p>
 
-	<h6 class="yellow-text text-lighten-3"><%= @article.title %></h6>
+	<h5 class="yellow-text"><%= @article.title %></h5><hr>
 	<p><%= markdown(@article.content) %></p>
   <%= link_to 'Edit', edit_article_path(@article) %>
 	<%= link_to 'Back', articles_path %>
 
 	<%= render "disqus" %>
-
 </div>

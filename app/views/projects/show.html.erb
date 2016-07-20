@@ -1,13 +1,17 @@
-<p id="notice"><%= notice %></p>
+<div class="narrow-margin" id="project-show">
+	<p id="notice"><%= notice %></p>
 
-<h6 class="yellow-text text-lighten-3">
-	<%= @project.title %>
-	<%= @project.image %>
-	<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.web, class: "yellow-text text-lighten-3 right" %>
-	<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3 right" %>
-</h6>
-<p><%= markdown(@project.description) %></p>
-<%= link_to 'Edit', edit_project_path(@project) %>
-<%= link_to 'Back', projects_path %>
+	<h5 class="yellow-text"><%= @project.title %></h5><hr>
+	<p><%= markdown(@project.description) %></p>
 
-<%= render "disqus" %>
+	<h6 class="yellow-text text-lighten-3">
+		<%= @project.image %>
+		<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.web, class: "yellow-text text-lighten-3 right" %>
+		<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3 right" %>
+	</h6>
+
+	<%= link_to 'Edit', edit_project_path(@project) %>
+	<%= link_to 'Back', projects_path %>
+
+	<%= render "disqus" %>
+</div>

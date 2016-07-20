@@ -31,6 +31,11 @@ $divider-color: #B6B6B6;
 	color: $accent-color;
 }
 
+@mixin left_right_margin($w) {
+	margin-left: $w;
+	margin-right: $w;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	display: flex;
@@ -76,11 +81,11 @@ nav {
 }
 
 footer.page-footer {
-	background-color: $nav-bg-color;
+	background-color: $nav-bg-color !important;
 	height: 100px;
 
 	.footer-copyright {
-		background-color: $nav-bg-color;
+		background-color: $nav-bg-color !important;
 	}
 
 	.fa {
@@ -119,6 +124,23 @@ footer.page-footer {
 	}
 }
 
+@media only screen and (min-width: 850px){
+	.narrow-margin {
+		@include left_right_margin(200px);
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.narrow-margin {
+		@include left_right_margin(100px);
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.narrow-margin {
+		@include left_right_margin(50px);
+	}
+}
 
 @import "materialize";
 @import url(http://fonts.googleapis.com/css?family=Roboto);

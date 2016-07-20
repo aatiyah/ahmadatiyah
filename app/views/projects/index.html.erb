@@ -1,22 +1,24 @@
-<p id="notice"><%= notice %></p>
+<div class="narrow-margin" id="project-index">
+	<p id="notice"><%= notice %></p>
 
-<div class="col s12 m12 l3" id="my-projects">
-	<h5 class="yellow-text">PROJECTS I'VE BUILT</h5><hr>
-	<div id="project">
-		<% @projects.each do |project| %>
-			<h6 class="yellow-text text-lighten-3">
-				<%= project.title %>
-				<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
-				<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
-			</h6>
-			<p><%= markdown(project.description) %></p>
-			<%= link_to 'Show', project %>
-			<%= link_to 'Edit', edit_project_path(project) %>
-			<%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
-		<% end %>
+	<div class="col s12 m12 l3" id="my-projects">
+		<h5 class="yellow-text">PROJECTS I'VE BUILT</h5><hr>
+		<div id="project">
+			<% @projects.each do |project| %>
+				<h6 class="yellow-text text-lighten-3">
+					<%= project.title %>
+					<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
+					<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
+				</h6>
+				<p><%= markdown(project.description) %></p>
+				<%= link_to 'Show', project %>
+				<%= link_to 'Edit', edit_project_path(project) %>
+				<%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+			<% end %>
+		</div>
 	</div>
+
+	<%= link_to 'New Project', new_project_path %>
+
+	<%= will_paginate @projects, class: "pagination center" %>
 </div>
-
-<%= link_to 'New Project', new_project_path %>
-
-<%= will_paginate @projects, class: "pagination center" %>
