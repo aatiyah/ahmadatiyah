@@ -31,9 +31,11 @@ $divider-color: #B6B6B6;
 	color: $accent-color;
 }
 
-@mixin left_right_margin($w) {
-	margin-left: $w;
-	margin-right: $w;
+@mixin left_right_margin($w, $md, $m) {
+	@media only screen and ($m: $md) {
+		margin-left: $w;
+		margin-right: $w;
+	}
 }
 
 body {
@@ -124,22 +126,16 @@ footer.page-footer {
 	}
 }
 
-@media only screen and (min-width: 850px){
-	.narrow-margin {
-		@include left_right_margin(200px);
-	}
+.narrow-margin {
+	@include left_right_margin(200px, 850px, min-width);
 }
 
-@media only screen and (max-width: 850px){
-	.narrow-margin {
-		@include left_right_margin(100px);
-	}
+.narrow-margin {
+	@include left_right_margin(100px, 850px, max-width);
 }
 
-@media only screen and (max-width: 600px){
-	.narrow-margin {
-		@include left_right_margin(50px);
-	}
+.narrow-margin {
+	@include left_right_margin(50px, 6000px, max-width);
 }
 
 @import "materialize";
