@@ -34,6 +34,14 @@
 	</div>
 	
 	<main class="white-text">
+		<div class="narrow-margin" id="article-index">
+			<% if notice %>
+				<p class="notice"><%= notice %></p>
+			<% elsif alert %>
+				<p class="alert"><%= alert %></p>
+			<% end %>
+		</div>
+		
 		<%= yield %>
 	</main>
 
