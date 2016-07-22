@@ -12267,3 +12267,2322 @@ Content-Transfer-Encoding: 7bit
 
   Rendered contacts/create.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 1846ms (Views: 700.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-21 17:52:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (9.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mArticle Load (4.9ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY created_at desc LIMIT 3
+  [1m[36mProject Load (4.4ms)[0m  [1mSELECT  "projects".* FROM "projects"  ORDER BY created_at desc LIMIT 3[0m
+  Rendered welcome/index.html.erb within layouts/application (63.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 23101ms (Views: 22929.6ms | ActiveRecord: 33.9ms)
+
+
+Started GET "/assets/application.self-bec1acaea98a08d2f9e18aa568703300b4b8b6270bdb53123b2f664f28fb9d45.css?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 17:53:04 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 17:53:05 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 17:53:06 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 17:53:06 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 17:53:06 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 17:53:06 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 17:53:06 -0500
+
+
+Started GET "/articles/article-3" for ::1 at 2016-07-21 17:53:13 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-3"}
+  [1m[35mArticle Load (11.4ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-3"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (25.6ms)
+  Rendered articles/show.html.erb within layouts/application (130.2ms)
+Completed 200 OK in 781ms (Views: 727.9ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/articles" for ::1 at 2016-07-21 17:53:20 -0500
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (5.9ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY created_at desc LIMIT 2 OFFSET 0[0m
+  [1m[35m (8.1ms)[0m  SELECT COUNT(*) FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (157.7ms)
+Completed 200 OK in 978ms (Views: 957.0ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/articles?page=2" for ::1 at 2016-07-21 17:53:26 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mArticle Load (8.6ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY created_at desc LIMIT 2 OFFSET 2[0m
+  Rendered articles/index.html.erb within layouts/application (3840.1ms)
+Completed 200 OK in 4402ms (Views: 4392.6ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-21 17:53:51 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (9.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (81.4ms)
+  Rendered articles/edit.html.erb within layouts/application (154.1ms)
+Completed 200 OK in 898ms (Views: 885.7ms | ActiveRecord: 9.3ms)
+
+
+Started PATCH "/articles/article-1" for ::1 at 2016-07-21 17:55:03 -0500
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dCP/YTpa0+GSZe4es5mJsE2LrTuBHk0nO7V0UFl8tE8iC07/j0GWRojY661lZLOSxPQ4FX0OPa/nVgAtUrX5JQ==", "article"=>{"title"=>"Article 1", "content"=>"##Title \r\n\r\n```ruby\r\nputs \"Using Redcarpet\"\r\n```\r\n```html\r\n\r\n<div class=\"narrow-margin\" id=\"article-index\">\r\n\t<p id=\"notice\"><%= notice %></p>\r\n\r\n\t<div class=\"col s12 m12 l3\" id=\"my-articles\">\r\n\t\t<h5 class=\"yellow-text\">ARTICLES I'VE WRITTEN</h5><hr>\r\n\t\t<div id=\"article\">\r\n\t\t\t<% @articles.each do |article| %>\r\n\t\t\t\t\t<h6 class=\"yellow-text text-lighten-3\"><%= article.title %></h6>\r\n\t\t\t\t\t<p><%= markdown(article.content) %></p>\r\n\t\t\t\t\t<td><%= link_to 'Show', article %>\r\n\t        <%= link_to 'Edit', edit_article_path(article) %>\r\n\t        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>\r\n\t\t\t<% end %>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\r\n\t<%= link_to 'New Article', new_article_path %>\r\n\r\n\t<%= will_paginate @articles, class: \"pagination center\" %>\r\n</div>\r\n```\r\n\r\nLorem ipsum dolor sit amet, vide insolens vim no. Ei error repudiare vix. Wisi iudico melius duo at, possim scriptorem usu et. Graeci detraxit volutpat qui in, mea habeo utamur philosophia ne. Vel omnis ullum qualisque ut. Viris aperiam quo te, saperet interesset theophrastus no cum, eros sanctus molestiae cu cum.\r\n\r\nOmnesque detraxit expetendis quo ex, vix cu odio scaevola. Mel inimicus intellegebat signiferumque cu, elit offendit an usu, detraxit deserunt quaestio vim te. Populo vocent aliquando vis ut, regione erroribus ut has. Error exerci virtute mea ea, in nam pericula neglegentur. Agam quas inermis qui cu.\r\n\r\nUt est dicat similique incorrupte, ei mea mollis adipisci. Ea clita feugiat disputando pri, elitr aliquam omittam cum in. Denique signiferumque nam te, harum appareat in sit. Nibh iracundia ne cum, iudico aperiam ea quo.\r\n"}, "commit"=>"Update Article", "id"=>"article-1"}
+  [1m[36mArticle Load (5.8ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (7.1ms)[0m  [1mUPDATE "articles" SET "content" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["content", "##Title \r\n\r\n```ruby\r\nputs \"Using Redcarpet\"\r\n```\r\n```html\r\n\r\n<div class=\"narrow-margin\" id=\"article-index\">\r\n\t<p id=\"notice\"><%= notice %></p>\r\n\r\n\t<div class=\"col s12 m12 l3\" id=\"my-articles\">\r\n\t\t<h5 class=\"yellow-text\">ARTICLES I'VE WRITTEN</h5><hr>\r\n\t\t<div id=\"article\">\r\n\t\t\t<% @articles.each do |article| %>\r\n\t\t\t\t\t<h6 class=\"yellow-text text-lighten-3\"><%= article.title %></h6>\r\n\t\t\t\t\t<p><%= markdown(article.content) %></p>\r\n\t\t\t\t\t<td><%= link_to 'Show', article %>\r\n\t        <%= link_to 'Edit', edit_article_path(article) %>\r\n\t        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>\r\n\t\t\t<% end %>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\r\n\t<%= link_to 'New Article', new_article_path %>\r\n\r\n\t<%= will_paginate @articles, class: \"pagination center\" %>\r\n</div>\r\n```\r\n\r\nLorem ipsum dolor sit amet, vide insolens vim no. Ei error repudiare vix. Wisi iudico melius duo at, possim scriptorem usu et. Graeci detraxit volutpat qui in, mea habeo utamur philosophia ne. Vel omnis ullum qualisque ut. Viris aperiam quo te, saperet interesset theophrastus no cum, eros sanctus molestiae cu cum.\r\n\r\nOmnesque detraxit expetendis quo ex, vix cu odio scaevola. Mel inimicus intellegebat signiferumque cu, elit offendit an usu, detraxit deserunt quaestio vim te. Populo vocent aliquando vis ut, regione erroribus ut has. Error exerci virtute mea ea, in nam pericula neglegentur. Agam quas inermis qui cu.\r\n\r\nUt est dicat similique incorrupte, ei mea mollis adipisci. Ea clita feugiat disputando pri, elitr aliquam omittam cum in. Denique signiferumque nam te, harum appareat in sit. Nibh iracundia ne cum, iudico aperiam ea quo.\r\n"], ["updated_at", "2016-07-21 22:55:03.234727"], ["id", 1]]
+  [1m[35m (204.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/article-1
+Completed 302 Found in 233ms (ActiveRecord: 217.4ms)
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 17:55:03 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (7.8ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (2.3ms)
+  Rendered articles/show.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 796ms (Views: 752.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 17:58:15 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (7.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (2.7ms)
+  Rendered articles/show.html.erb within layouts/application (26.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6902ms (Views: 6889.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/application.self-325c16a7565a07e72b0cfa5c3c790a20b79e327c727c1d9837dfe8b99786aa9d.css?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 17:58:24 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 17:58:25 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 17:58:26 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 17:58:26 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 17:59:32 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (8.1ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (5.7ms)
+  Rendered articles/show.html.erb within layouts/application (28.9ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6510ms (Views: 6483.2ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/application.self-42a4869fda9ea9c76cef089e57dea24ead903ebc6c347855afb557a0fe404397.css?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 17:59:39 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 17:59:40 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 17:59:41 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 18:02:49 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (10.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (3.6ms)
+  Rendered articles/show.html.erb within layouts/application (30.4ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6347ms (Views: 6327.3ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/assets/application.self-037ef5505114d324b279dba317bfffaca1940f0bd761a8b8ecc551b6942f5261.css?body=1" for ::1 at 2016-07-21 18:02:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 18:02:56 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:02:56 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:02:56 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 18:02:57 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 18:02:58 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 18:04:45 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (6.7ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (5.4ms)
+  Rendered articles/show.html.erb within layouts/application (35.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 7912ms (Views: 7880.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.self-e71c8f4f9247276de9823d86d0d5eb557bc0f2fc360c4a16d768fc97b8dd5492.css?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 18:04:54 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 18:04:55 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 18:08:33 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (9.9ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (6.2ms)
+  Rendered articles/show.html.erb within layouts/application (45.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6652ms (Views: 6613.3ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/assets/application.self-f7ff10fceb6e952b2c8d12f3cf18c11807ede9a7cc49397b9dff9cc76bcfa3ea.css?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 18:08:40 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 18:08:41 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-21 18:09:18 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (6.8ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (2.0ms)
+  Rendered articles/show.html.erb within layouts/application (24.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 4859ms (Views: 4849.0ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.self-a9574d3af6dd425bdb13bbc49e04d872dba2c37631e5716d264d81e590e82982.css?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:09:23 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-21 18:09:24 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-21 18:09:25 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-21 18:09:25 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-21 18:09:25 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-21 18:09:25 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-21 18:09:25 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:11:42 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (10.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (7.5ms)
+  Rendered articles/show.html.erb within layouts/application (48.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6338ms (Views: 6296.6ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/assets/application.self-1c1d93efad7fc46baefff287776c91b5a96af9bf45e4202952ca67d2c70a256b.css?body=1" for ::1 at 2016-07-22 10:11:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:11:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:11:49 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:11:49 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:11:50 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:11:51 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:13:59 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (7.9ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (6.5ms)
+  Rendered articles/show.html.erb within layouts/application (45.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 5695ms (Views: 5658.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/application.self-0b5233aab3b0d7a619daf85d199e7eb033694327f14def2ddd2f221a9ddb9b0e.css?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:05 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:14:06 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:14:07 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:14:48 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (8.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (3.8ms)
+  Rendered articles/show.html.erb within layouts/application (31.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 8352ms (Views: 8331.5ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/application.self-c60f0783edc4aee71705dcfebc391e5e8157522b28167b833916c97881dad714.css?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:14:59 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:15:00 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:15:01 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:16:59 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (13.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (10.0ms)
+  Rendered articles/show.html.erb within layouts/application (92.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 8023ms (Views: 7957.1ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/assets/application.self-8bbaf3bd1d240f13698047aeb462ecd706e4cc664d31d69e80f2f48066e04a9f.css?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:17:08 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:17:10 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:17:11 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:17:12 -0500
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:23:44 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (8.7ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (6.2ms)
+  Rendered articles/show.html.erb within layouts/application (50.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 5697ms (Views: 5656.5ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/application.self-bc05ce6cfb429b4fe8bb50a39d2cea64bb38ce05f8481232f2e12b6b03799808.css?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:23:51 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:23:52 -0500
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:24:15 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (7.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (3.7ms)
+  Rendered articles/edit.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 715ms (Views: 703.9ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/articles" for ::1 at 2016-07-22 10:24:20 -0500
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (5.0ms)[0m  SELECT  "articles".* FROM "articles"  ORDER BY created_at desc LIMIT 2 OFFSET 0
+  [1m[36m (5.4ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 588ms (Views: 576.2ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:24:36 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (5.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (2.6ms)
+  Rendered articles/edit.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 719ms (Views: 710.7ms | ActiveRecord: 5.1ms)
+
+
+Started PATCH "/articles/article-1" for ::1 at 2016-07-22 10:25:32 -0500
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t7LgjAhKwfd8DDdLXkcxY8BIXlCmGBK3+vMkOcCctOzhmlESvVGEUGaxMviIugtBSTfLfloIYj8mEFBEy1X5hg==", "article"=>{"title"=>"Article 1", "content"=>"##Title \r\n\r\n```ruby\r\nputs \"Using Redcarpet\"\r\n```\r\n```html\r\n\r\n<div class=\"narrow-margin\" id=\"article-index\">\r\n\t<p id=\"notice\"><%= notice %></p>\r\n\r\n\t<div class=\"col s12 m12 l3\" id=\"my-articles\">\r\n\t\t<h5 class=\"yellow-text\">ARTICLES I'VE WRITTEN</h5><hr>\r\n\t\t<div id=\"article\">\r\n\t\t\t<% @articles.each do |article| %>\r\n\t\t\t\t\t<h6 class=\"yellow-text text-lighten-3\">\r\n<%= article.title %></h6>\r\n\t\t\t\t\t<p><%= markdown(article.content) %></p>\r\n\t\t\t\t\t<td><%= link_to 'Show', article %>\r\n\t        <%= link_to 'Edit', edit_article_path(article) %>\r\n\t        <%= link_to 'Destroy', article, method: :delete, \r\ndata: { confirm: 'Are you sure?' } %>\r\n\t\t\t<% end %>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\r\n\t<%= link_to 'New Article', new_article_path %>\r\n\r\n\t<%= will_paginate @articles, class: \"pagination center\" %>\r\n</div>\r\n```\r\n\r\nLorem ipsum dolor sit amet, vide insolens vim no. Ei error repudiare vix. Wisi iudico melius duo at, possim scriptorem usu et. Graeci detraxit volutpat qui in, mea habeo utamur philosophia ne. Vel omnis ullum qualisque ut. Viris aperiam quo te, saperet interesset theophrastus no cum, eros sanctus molestiae cu cum.\r\n\r\nOmnesque detraxit expetendis quo ex, vix cu odio scaevola. Mel inimicus intellegebat signiferumque cu, elit offendit an usu, detraxit deserunt quaestio vim te. Populo vocent aliquando vis ut, regione erroribus ut has. Error exerci virtute mea ea, in nam pericula neglegentur. Agam quas inermis qui cu.\r\n\r\nUt est dicat similique incorrupte, ei mea mollis adipisci. Ea clita feugiat disputando pri, elitr aliquam omittam cum in. Denique signiferumque nam te, harum appareat in sit. Nibh iracundia ne cum, iudico aperiam ea quo.\r\n"}, "commit"=>"Update Article", "id"=>"article-1"}
+  [1m[36mArticle Load (6.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (6.6ms)[0m  [1mUPDATE "articles" SET "content" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["content", "##Title \r\n\r\n```ruby\r\nputs \"Using Redcarpet\"\r\n```\r\n```html\r\n\r\n<div class=\"narrow-margin\" id=\"article-index\">\r\n\t<p id=\"notice\"><%= notice %></p>\r\n\r\n\t<div class=\"col s12 m12 l3\" id=\"my-articles\">\r\n\t\t<h5 class=\"yellow-text\">ARTICLES I'VE WRITTEN</h5><hr>\r\n\t\t<div id=\"article\">\r\n\t\t\t<% @articles.each do |article| %>\r\n\t\t\t\t\t<h6 class=\"yellow-text text-lighten-3\">\r\n<%= article.title %></h6>\r\n\t\t\t\t\t<p><%= markdown(article.content) %></p>\r\n\t\t\t\t\t<td><%= link_to 'Show', article %>\r\n\t        <%= link_to 'Edit', edit_article_path(article) %>\r\n\t        <%= link_to 'Destroy', article, method: :delete, \r\ndata: { confirm: 'Are you sure?' } %>\r\n\t\t\t<% end %>\r\n\t\t</div>\r\n\t</div>\r\n\r\n\r\n\t<%= link_to 'New Article', new_article_path %>\r\n\r\n\t<%= will_paginate @articles, class: \"pagination center\" %>\r\n</div>\r\n```\r\n\r\nLorem ipsum dolor sit amet, vide insolens vim no. Ei error repudiare vix. Wisi iudico melius duo at, possim scriptorem usu et. Graeci detraxit volutpat qui in, mea habeo utamur philosophia ne. Vel omnis ullum qualisque ut. Viris aperiam quo te, saperet interesset theophrastus no cum, eros sanctus molestiae cu cum.\r\n\r\nOmnesque detraxit expetendis quo ex, vix cu odio scaevola. Mel inimicus intellegebat signiferumque cu, elit offendit an usu, detraxit deserunt quaestio vim te. Populo vocent aliquando vis ut, regione erroribus ut has. Error exerci virtute mea ea, in nam pericula neglegentur. Agam quas inermis qui cu.\r\n\r\nUt est dicat similique incorrupte, ei mea mollis adipisci. Ea clita feugiat disputando pri, elitr aliquam omittam cum in. Denique signiferumque nam te, harum appareat in sit. Nibh iracundia ne cum, iudico aperiam ea quo.\r\n"], ["updated_at", "2016-07-22 15:25:32.740249"], ["id", 1]]
+  [1m[35m (126.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/article-1
+Completed 302 Found in 154ms (ActiveRecord: 139.2ms)
+
+
+Started GET "/articles/article-1" for ::1 at 2016-07-22 10:25:32 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (7.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+DEPRECATION WARNING: You are calling a `*_path` helper with the `only_path` option explicitly set to `false`. This option will stop working on path helpers in Rails 5. Use the corresponding `*_url` helper instead. (called from _app_views_articles__disqus_html_erb___946044619825815572_70187970371000 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/articles/_disqus.html.erb:7)
+  Rendered articles/_disqus.html.erb (2.3ms)
+  Rendered articles/show.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 796ms (Views: 784.8ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:29:43 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (5.6ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (4.4ms)
+  Rendered articles/edit.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 894ms (Views: 885.7ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:32:19 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (5.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (4.0ms)
+  Rendered articles/edit.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 5.4ms)
+
+ActionView::Template::Error (Invalid CSS after "	height:": expected expression (e.g. 1px, bold), was "}"):
+    2: <html>
+    3: <head>
+    4:   <title>Ahmadatiyah</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+  app/assets/stylesheets/application.scss:158
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2827259352211776591_70187919035720'
+
+
+  Rendered /Users/ahmadatiyah/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/ahmadatiyah/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/ahmadatiyah/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/ahmadatiyah/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (161.0ms)
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:32:40 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[35mArticle Load (3.7ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (2.3ms)
+  Rendered articles/edit.html.erb within layouts/application (10.9ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6823ms (Views: 6815.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-626b8138ecd431be97406dbe619129271f954e0e040c901781897344adb4cf54.css?body=1" for ::1 at 2016-07-22 10:32:47 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:32:48 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:32:49 -0500
+
+
+Started GET "/articles/article-1/edit" for ::1 at 2016-07-22 10:34:34 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"article-1"}
+  [1m[36mArticle Load (6.0ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."slug" = ?  ORDER BY "articles"."id" ASC LIMIT 1[0m  [["slug", "article-1"]]
+  Rendered articles/_form.html.erb (7.8ms)
+  Rendered articles/edit.html.erb within layouts/application (19.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6040ms (Views: 6030.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.self-74260b86845d178d001b7cb167156e5d18734f642039e38833ed19b0b6ebe242.css?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:34:40 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:34:41 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:34:42 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:34:42 -0500
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for ::1 at 2016-07-22 10:34:50 -0500
+
+
+Started GET "/projects" for ::1 at 2016-07-22 10:34:52 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (3.6ms)[0m  SELECT  "projects".* FROM "projects"  ORDER BY created_at desc LIMIT 2 OFFSET 0
+  [1m[36m (6.9ms)[0m  [1mSELECT COUNT(*) FROM "projects"[0m
+  Rendered projects/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 945ms (Views: 931.6ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/projects/testing-project-1/edit" for ::1 at 2016-07-22 10:34:59 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"testing-project-1"}
+  [1m[35mProject Load (3.7ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."slug" = ?  ORDER BY "projects"."id" ASC LIMIT 1  [["slug", "testing-project-1"]]
+  Rendered projects/_form.html.erb (8.0ms)
+  Rendered projects/edit.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 571ms (Views: 564.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/projects/testing-project-1/edit" for ::1 at 2016-07-22 10:35:38 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"testing-project-1"}
+  [1m[36mProject Load (8.1ms)[0m  [1mSELECT  "projects".* FROM "projects" WHERE "projects"."slug" = ?  ORDER BY "projects"."id" ASC LIMIT 1[0m  [["slug", "testing-project-1"]]
+  Rendered projects/_form.html.erb (3.6ms)
+  Rendered projects/edit.html.erb within layouts/application (14.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.css.scss to /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/assets/stylesheets/pygments.scss. (called from _app_views_layouts_application_html_erb___2827259352211776591_70187919035720 at /Volumes/Users/Ahmad/Google Drive/ahmadatiyah/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 5970ms (Views: 5959.3ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/application.self-768070653f5f9f3815dad6ef8332076c61f8df1cac152aa12509d32591d9939c.css?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:35:44 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:35:45 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:35:46 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:35:46 -0500
+
+
+Started GET "/projects/testing-project-1/edit" for ::1 at 2016-07-22 10:37:24 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"testing-project-1"}
+  [1m[35mProject Load (6.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."slug" = ?  ORDER BY "projects"."id" ASC LIMIT 1  [["slug", "testing-project-1"]]
+  Rendered projects/_form.html.erb (2.8ms)
+  Rendered projects/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 692ms (Views: 684.1ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.self-768070653f5f9f3815dad6ef8332076c61f8df1cac152aa12509d32591d9939c.css?body=1" for ::1 at 2016-07-22 10:37:25 -0500
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:37:25 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-22 10:37:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-22 10:37:25 -0500
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:37:25 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/hammer.min.self-bf8bdb0953b1a135f96716e362e1f7a8e64168c914fa77ca31973bb70e57a731.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/jquery.easing.1.3.self-0170bc905fbddc075a56bdccce1be6a58f3713a14137b607ba9bd9f96fd7835f.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/animation.self-a1028b0bcf2e26331bedf7b90e81103f0707e69fdec488aa951de94b51987767.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/velocity.min.self-5adbb81af5c205a959e06198156b4b31fcd57f02c592e3fb096d7b74e8f401a6.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/initial.self-79f269ead2aeaa809299033919f9128fa0d9700d0248cad0dcd6442ce43dc389.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/jquery.hammer.self-73fd69102f356b9abfc9ee242b19895f62454f42cfcfa1f066be71d2c8f41c7a.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/global.self-90649deff3358499c5859330da1363eea3e2bef75c80df5940f3894778f95027.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/collapsible.self-4c13fea644257c8f9384721f7d3bc27bced51754ddf3602b56093e2450a5d9c2.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/dropdown.self-846e8151c8bb8f7e39464f96bd95d48a37ff9831d8f478b6bdcbd563dd2534f0.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/leanModal.self-127e920c37478ac94207994c34d28e40b2d44817a0d93176ed325bdbee80863e.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/materialbox.self-8572736f9d17261189da8a9fc91555d63b29498f4f8665328e28261c7c4cdb68.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/parallax.self-7ac34f0f3dcef83deee116ea473a2770cec13e07c8e0dcce08cc2372bbe295d3.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/tabs.self-0eee47c7ae3f1cfcf49b9619bb067eaf4fa75379be3b78469a0120a8bf972bd3.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/tooltip.self-df3538fd067523c8b7f4d50e060340ec0b551ebaba9733e157c404df9a96a185.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/waves.self-26e9b9cfaa9ccbc292ed510f654bd279d69695f5337a14c9800b36e92f96735b.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/toasts.self-1eaa9f33c4c3b83f381997876ba6ac53899a5ca72a6b401708c32625fc553adc.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/sideNav.self-196d1801e7592bfd857227ce793d1de69b06fb6ca9d908f44f5618c8564a12d0.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/scrollspy.self-2d0375d44b1d864ecb8e31c25a22c4f3be766284788b0c494ec51df71e2b0e09.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/forms.self-e70e77c2b9157926587d6cfd009e8e0eedbaf059bdaa9e1bfe27b186b345598b.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/slider.self-219e35a6b0ade584e951aa0f39fe9856b3ef0e6bb33af123dd4b8ce6757b03cb.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/cards.self-b1de04b6f5f525d63199f556bb55d5b8bdae7170b91bfcb503958bc8ed10945b.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/chips.self-9b19ca899ba360746581059852bf2a40b3338402eef9df9a7806efd8578056dd.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/pushpin.self-101d3fec3225f47ac0da9bd501200d30f92f97f70fb15500c835cb850c962816.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/buttons.self-fc0951c300b1984a00694eabc8c451531be448d646ac073b05e4d2fbf7209302.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/transitions.self-c527b205edfdd1f961487c4c7beaf83c335262accb4dff964341a86eb60fd2f2.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/scrollFire.self-9fb128253d776689dfe2091470e36d2e94c13c6340700135ee679aa20148dffd.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.self-7a9d1216fe1172f8e8fd78fb86cfd4da25c909ebd6983cba5da20817d437d92b.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/date_picker/picker.date.self-5924b278beda2df8570f137f72b37e2d0f516acbc11a0994d1abb74380f078ef.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/character_counter.self-8bb854e15067a96db5bff6896d1d9435e4df83cf5bf6877a1d606940661d2588.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize/carousel.self-6f3b9002af3ab4d871a03a44d2e174370720ab31f19a4ee543c1904c32e2befa.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/materialize-sprockets.self-4691589913babdfbd3fb736895105a8e826d4abde842e6d1e8dd2d188e255bc7.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/application.self-1d083af4bee0c91bfece29f59f1c38e750e7b1ccbd74ebe822b2032af0d1233c.js?body=1" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/logo2-d4997d1604fae3fa3fecea3f404110362e22b460669909816aff39d8668be3e4.png" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/assets/me-42610c61452fea7d7228c2e23830286d7ce01add32732655783a4e95ced0ef52.jpg" for ::1 at 2016-07-22 10:37:26 -0500
+
+
+Started GET "/" for ::1 at 2016-07-22 10:38:04 -0500
+Processing by WelcomeController#index as HTML
+  [1m[36mArticle Load (5.9ms)[0m  [1mSELECT  "articles".* FROM "articles"  ORDER BY created_at desc LIMIT 3[0m
+  [1m[35mProject Load (4.0ms)[0m  SELECT  "projects".* FROM "projects"  ORDER BY created_at desc LIMIT 3
+  Rendered welcome/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 734ms (Views: 723.1ms | ActiveRecord: 9.9ms)

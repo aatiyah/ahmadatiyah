@@ -27,10 +27,10 @@ $divider-color: #B6B6B6;
 	color: $accent-color;
 }
 
-@mixin left_right_margin($w, $md, $m) {
-	@media only screen and ($m: $md) {
-		margin-left: $w;
-		margin-right: $w;
+@mixin left_right_margin($margin_px, $screen_px, $min_max) {
+	@media only screen and ($min_max: $screen_px) {
+		margin-left: $margin_px;
+		margin-right: $margin_px;
 	}
 }
 
@@ -141,10 +141,19 @@ footer.page-footer {
 
 .highlight {
 	color: $primary-color-dark;
+	font-size: 12px;
+
+	@media only screen and (max-width: 600px) {
+		font-size: 11px;
+	}
 }
 
 .hide {
 	display: none;
+}
+
+textarea#article_content, textarea#project_description {
+	height: 25em;
 }
 
 @import "materialize";
