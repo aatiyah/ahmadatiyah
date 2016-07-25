@@ -1,6 +1,4 @@
 <div class="narrow-margin" id="article-index">
-	<p id="notice"><%= notice %></p>
-
 	<div class="col s12 m12 l3" id="my-articles">
 		<h5 class="yellow-text">ARTICLES I'VE WRITTEN</h5><hr>
 		<div id="article">
@@ -8,14 +6,13 @@
 					<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
 					<p><%= markdown(article.content) %></p>
 					<td><%= link_to 'Show', article %>
-	        <%= link_to 'Edit', edit_article_path(article) %>
-	        <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
 			<% end %>
 		</div>
 	</div>
 
-
-	<%= link_to 'New Article', new_article_path %>
+	<% if user_signed_in? %>
+		<%= link_to 'New Article', new_article_path %>
+	<% end %>
 
 	<%= will_paginate @articles, class: "pagination center" %>
 </div>

@@ -1,6 +1,4 @@
 <div class="narrow-margin" id="project-index">
-	<p id="notice"><%= notice %></p>
-
 	<div class="col s12 m12 l3" id="my-projects">
 		<h5 class="yellow-text">PROJECTS I'VE BUILT</h5><hr>
 		<div id="project">
@@ -12,13 +10,13 @@
 				</h6>
 				<p><%= markdown(project.description) %></p>
 				<%= link_to 'Show', project %>
-				<%= link_to 'Edit', edit_project_path(project) %>
-				<%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
 			<% end %>
 		</div>
 	</div>
 
-	<%= link_to 'New Project', new_project_path %>
+	<% if user_signed_in? %>
+		<%= link_to 'New Project', new_project_path %>
+	<% end %>
 
 	<%= will_paginate @projects, class: "pagination center" %>
 </div>

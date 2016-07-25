@@ -8,7 +8,11 @@
 		<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3 right" %>
 	</h6>
 
-	<%= link_to 'Edit', edit_project_path(@project) %>
+	<% if user_signed_in? %>
+		<%= link_to 'Edit', edit_project_path(@project) %>
+		<%= link_to 'Destroy', project_path(@project), method: :delete, data: { confirm: 'Are you sure?' } %>
+	<% end %>
+
 	<%= link_to 'Back', projects_path %>
 
 	<%= render "disqus" %>

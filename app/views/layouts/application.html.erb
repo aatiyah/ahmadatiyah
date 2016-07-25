@@ -21,6 +21,7 @@
 	        <li><%= link_to "Projects", projects_path %></li>
 	        <li><%= link_to "Contact Me", new_contact_path %></li>
 	        <li><a href="#">Sign In</a></li>
+        	<li><%= link_to "Sign Out", destroy_user_session_path, method: :delete%></li>
 	      </ul>
 	      <ul class="side-nav center" id="mobile-demo">
 	      	<li class="sidenav-img"><%= image_tag('me.jpg', class: "responsive-img") %></li>
@@ -34,7 +35,7 @@
 	</div>
 	
 	<main class="white-text">
-		<div class="narrow-margin" id="article-index">
+		<div class="narrow-margin center" id="article-index">
 			<% if notice %>
 				<p class="notice"><%= notice %></p>
 			<% elsif alert %>
