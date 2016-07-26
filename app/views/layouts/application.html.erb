@@ -20,15 +20,15 @@
 	        <li><%= link_to "Articles", articles_path %></li>
 	        <li><%= link_to "Projects", projects_path %></li>
 	        <li><%= link_to "Contact Me", new_contact_path %></li>
-	        <li><a href="#">Sign In</a></li>
-        	<li><%= link_to "Sign Out", destroy_user_session_path, method: :delete%></li>
+	        <% if user_signed_in? %>
+	        	<li><%= link_to "Sign Out", destroy_user_session_path, method: :delete%></li>
+	        <% end %>
 	      </ul>
 	      <ul class="side-nav center" id="mobile-demo">
 	      	<li class="sidenav-img"><%= image_tag('me.jpg', class: "responsive-img") %></li>
 	        <li><%= link_to "Articles", articles_path %></li>
 	        <li><%= link_to "Projects", projects_path %></li>
 	        <li><%= link_to "Contact Me", new_contact_path %></li>
-	        <li><a href="#">Sign In</a></li>
 	      </ul>
 	    </div>
 	  </nav>

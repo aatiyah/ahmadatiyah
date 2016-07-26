@@ -23,9 +23,16 @@ $primary-text-color: #212121;
 $secondary-text-color: #727272;
 $divider-color: #B6B6B6;
 $hover-blue: #039be5;
+$yellow-light: #fff59d;
 
-@mixin yellow-hover {
-	color: $accent-color;
+@mixin link_hover($before, $after) {
+	a {
+		color: $before;
+	}
+
+	a:hover {
+		color: $after;
+	}
 }
 
 @mixin left_right_margin($margin_px, $screen_px, $min_max) {
@@ -36,7 +43,6 @@ $hover-blue: #039be5;
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -48,8 +54,7 @@ main {
   margin: 20px;
 
   a:hover {
-  	text-decoration: underline;
-  	color: $hover-blue;
+  	text-shadow: 1px 1px 2px black; 
   }
 }
 
@@ -80,7 +85,7 @@ nav {
 
 .topnav {
 	a:hover {
-		@include yellow-hover;
+		color: $accent-color;
 	}
 }
 
@@ -104,6 +109,12 @@ footer.page-footer {
 .welcome {
 	margin: 40px; 
 
+	.col.s12.m12 {
+		padding-left: 0px;
+	}
+}
+
+.welcome_title {
 	hr {
 		border: 2px solid;
 	}
@@ -118,14 +129,25 @@ footer.page-footer {
 		padding-bottom: 20px;
 	}
 
-	h6 {
+	h6, h5 {
 		margin-top: 15px;
-		text-transform: uppercase;
 	}
 
 	.fa {
 		margin-left: 10px;
 	}
+
+	@include link_hover($yellow-light, $accent-color);
+
+	.card .card-action {
+		border-top: 2px solid rgba(255, 255, 255, 0.4);
+	}
+
+	margin-bottom: 200px;
+}
+
+.pagination {
+	@include link_hover($yellow-light, white);	
 }
 
 .narrow-margin {
@@ -155,6 +177,51 @@ footer.page-footer {
 
 textarea#article_content, textarea#project_description {
 	height: 25em;
+}
+
+#article-index, #project-index {
+	hr {
+		width: 50%;
+	}
+}
+
+.page_title {
+	border: 2px solid rgba(255, 255, 255, 0.4);
+	line-height: 2em;
+}
+
+h5, h6 {
+	text-transform: uppercase;
+}
+
+.card {
+	background-color: $primary-color-dark !important;
+	margin-right: -10px !important;
+
+	.card-conntent {
+		padding: 20px, 0, 0, 0;
+	}
+}
+
+.yellow_btn {
+	a {
+		color: $primary-color-dark !important;
+		margin: 8px;
+
+		&:hover {
+			color: white !important;
+		}
+	}
+}
+
+#project-show {
+	.fa {
+		font-size: xx-large;
+	}
+
+	img {
+		max-width: 100%;
+	}
 }
 
 @import "materialize";

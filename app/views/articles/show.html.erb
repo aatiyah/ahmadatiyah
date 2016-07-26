@@ -1,10 +1,18 @@
 <div class="narrow-margin" id="article-show">
-	<h5 class="yellow-text"><%= @article.title %></h5><hr>
-	<p><%= markdown(@article.content) %></p>
-	<% if user_signed_in? %>
-	  <%= link_to 'Edit', edit_article_path(@article) %>
-	  <%= link_to 'Destroy', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
-	<% end %>
-	<%= link_to 'Back', articles_path %>
-	<%= render "disqus" %>
+	<div id="article">
+		<h5 class="yellow-text page_title center"><%= @article.title %></h5>
+		<p><%= markdown(@article.content) %></p>
+
+		<div class="yellow_btn center">
+			<div class="admin_links">	
+				<% if user_signed_in? %>
+					<%= link_to 'Edit', edit_article_path(@article), class: "waves-effect btn yellow" %>
+					<%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect btn yellow" %>
+				<% end %>
+			</div>
+		</div>
+
+	<br>	
+		<%= render "disqus" %>
+	</div>
 </div>

@@ -1,11 +1,10 @@
-<div class="narrow-margin" id="article-index">
-	<div class="col s12 m12 l3" id="my-articles">
-		<h5 class="yellow-text">ARTICLES I'VE WRITTEN</h5><hr>
-		<div id="article">
+<div class="narrow-margin center" id="article-index">
+	<div id="my-articles">
+		<h5 class="page_title yellow-text">ARTICLES I'VE WRITTEN</h5>
+		<div class="row" id="article">
 			<% @articles.each do |article| %>
-					<h6 class="yellow-text text-lighten-3"><%= article.title %></h6>
-					<p><%= markdown(article.content) %></p>
-					<td><%= link_to 'Show', article %>
+					<h5 class="sub-title"><%= link_to article.title, article, class: "title" %></h5>
+					<p class="date"><em><%= article.created_at.strftime('%A: %B %d, %Y') %></em></p><hr>
 			<% end %>
 		</div>
 	</div>

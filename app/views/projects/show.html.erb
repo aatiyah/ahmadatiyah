@@ -1,19 +1,23 @@
 <div class="narrow-margin" id="project-show">
-	<h5 class="yellow-text"><%= @project.title %></h5><hr>
-	<p><%= markdown(@project.description) %></p>
+	<div id="project">
+		<h5 class="yellow-text page_title center"><%= @project.title %></h5>
+		<%= image_tag ("#{@project.image}"), alt: "Project's image" %>
+		<p><%= markdown(@project.description) %></p>
 
-	<h6 class="yellow-text text-lighten-3">
-		<%= @project.image %>
-		<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.web, class: "yellow-text text-lighten-3 right" %>
-		<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3 right" %>
-	</h6>
+		<div class="yellow_btn center">
+			<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.web, class: "yellow-text text-lighten-3" %>
+			<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3" %>
+			<hr width="50%">
 
-	<% if user_signed_in? %>
-		<%= link_to 'Edit', edit_project_path(@project) %>
-		<%= link_to 'Destroy', project_path(@project), method: :delete, data: { confirm: 'Are you sure?' } %>
-	<% end %>
+			<div class="admin_links">	
+				<% if user_signed_in? %>
+					<%= link_to 'Edit', edit_project_path(@project), class: "waves-effect btn yellow" %>
+					<%= link_to 'Delete', project_path(@project), method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect btn yellow" %>
+				<% end %>
+			</div>
+		</div>
 
-	<%= link_to 'Back', projects_path %>
-
-	<%= render "disqus" %>
+	<br>	
+		<%= render "disqus" %>
+	</div>
 </div>

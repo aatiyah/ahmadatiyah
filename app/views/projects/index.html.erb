@@ -1,15 +1,10 @@
-<div class="narrow-margin" id="project-index">
-	<div class="col s12 m12 l3" id="my-projects">
-		<h5 class="yellow-text">PROJECTS I'VE BUILT</h5><hr>
-		<div id="project">
+<div class="narrow-margin center" id="project-index">
+	<div id="my-projects">
+		<h5 class="page_title yellow-text">projects I'VE WRITTEN</h5>
+		<div class="row" id="project">
 			<% @projects.each do |project| %>
-				<h6 class="yellow-text text-lighten-3">
-					<%= project.title %>
-					<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.web, class: "yellow-text text-lighten-3 right" %>
-					<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, project.github, class: "yellow-text text-lighten-3 right" %>
-				</h6>
-				<p><%= markdown(project.description) %></p>
-				<%= link_to 'Show', project %>
+					<h5 class="sub-title"><%= link_to project.title, project, class: "title" %></h5>
+					<p class="date"><em><%= project.created_at.strftime('%A: %B %d, %Y') %></em></p><hr>
 			<% end %>
 		</div>
 	</div>
