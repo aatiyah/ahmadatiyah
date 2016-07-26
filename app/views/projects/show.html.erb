@@ -7,10 +7,10 @@
 		<div class="yellow_btn center">
 			<%= link_to '<i class="fa fa-home yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.web, class: "yellow-text text-lighten-3" %>
 			<%= link_to '<i class="fa fa-github-alt yellow-text text-lighten-3" aria-hidden="true"></i>'.html_safe, @project.github, class: "yellow-text text-lighten-3" %>
-			<hr width="50%">
 
 			<div class="admin_links">	
 				<% if user_signed_in? %>
+					<hr width="50%">
 					<%= link_to 'Edit', edit_project_path(@project), class: "waves-effect btn yellow" %>
 					<%= link_to 'Delete', project_path(@project), method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect btn yellow" %>
 				<% end %>
