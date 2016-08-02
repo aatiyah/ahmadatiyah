@@ -1,8 +1,10 @@
 <div class="narrow-margin" id="article-edit">
-	<h5 class="yellow-text">Editting Article</h5><hr>
+	<h5 class="page_title yellow-text center">Editting Article</h5>
 
 	<%= render 'form' %>
 
-	<%= link_to 'Show', @article %> |
-	<%= link_to 'Back', articles_path %>
+	<div class="center">	
+		<%= link_to 'Show ', @article, class: "yellow-text text-lighten-3" %> | 
+		<%= link_to ' Back', articles_path, class: "yellow-text text-lighten-3" %>
+	</div>
 </div>

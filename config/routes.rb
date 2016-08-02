@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :articles
   resources :contacts, only: [:new, :create]
 	get 'welcome/index'
+	get 'welcome/no_route'
 	root 'welcome#index'	
+
 	get '*path' => redirect('/welcome/no_route')
 end

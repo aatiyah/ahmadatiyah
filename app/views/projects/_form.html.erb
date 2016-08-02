@@ -12,26 +12,29 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
+    <%= f.label :title, class: "yellow-text text-lighten-3" %><br>
     <%= f.text_field :title %>
   </div>
   <div class="field edit">
-    <%= f.label :description %><br>
+    <%= f.label :description, class: "yellow-text text-lighten-3" %><br>
     <%= f.text_area :description %>
   </div>
   <div class="field">
-    <%= f.label :github %><br>
+    <%= f.label :github, class: "yellow-text text-lighten-3" %><br>
     <%= f.text_field :github %>
   </div>
   <div class="field">
-    <%= f.label :web %><br>
+    <%= f.label :web, class: "yellow-text text-lighten-3" %><br>
     <%= f.text_field :web %>
   </div>
   <div class="field">
-    <%= f.label :image %><br>
+    <%= f.label :image, class: "yellow-text text-lighten-3" %><br>
     <%= f.text_field :image %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
+	<div class="yellow_btn center">
+	  <div class="actions">
+	    <%= f.submit class: "waves-effect yellow btn" %>
+	  </div>
+	</div>  
 <% end %>

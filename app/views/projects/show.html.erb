@@ -1,6 +1,7 @@
 <div class="narrow-margin" id="project-show">
 	<div id="project">
 		<h5 class="yellow-text page_title center"><%= @project.title %></h5>
+		<h6 class="date center"><em class="grey-text text-lighten-1"><%= @project.created_at.strftime('%B %d, %Y') %></em></h6>
 		<%= image_tag ("#{@project.image}"), alt: "Project's image" %>
 		<p><%= markdown(@project.description) %></p>
 

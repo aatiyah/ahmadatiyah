@@ -1,5 +1,8 @@
 <div class="narrow-margin" id="article-new">
-	<h5 class="yellow-text">New Article</h5><hr>
+	<h5 class="page_title yellow-text center">New Article</h5>
 	<%= render 'form' %>
-	<%= link_to 'Back', articles_path %>
+
+	<div class="center">
+		<%= link_to 'Back', articles_path, class: "yellow-text text-lighten-3" %>
+	</div>
 </div>

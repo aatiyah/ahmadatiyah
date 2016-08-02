@@ -4,14 +4,17 @@
 		<div class="row" id="article">
 			<% @articles.each do |article| %>
 					<h5 class="sub-title"><%= link_to article.title, article, class: "title" %></h5>
-					<p class="date"><em><%= article.created_at.strftime('%A: %B %d, %Y') %></em></p><hr>
+					<p class="date"><em><%= article.created_at.strftime('%A: %B %d, %Y') %></em></p>
+					<hr>
 			<% end %>
 		</div>
 	</div>
 
-	<% if user_signed_in? %>
-		<%= link_to 'New Article', new_article_path %>
-	<% end %>
+	<div class="yellow_btn center">	
+		<% if user_signed_in? %>
+			<%= link_to 'New Article', new_article_path, class: "waves-effect yellow btn" %>
+		<% end %>
+	</div>
 
 	<%= will_paginate @articles, class: "pagination center" %>
 </div>

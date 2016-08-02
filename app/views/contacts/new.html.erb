@@ -1,25 +1,60 @@
 <div class="narrow-margin" id="contact_me">
 	<h5 class="page_title center yellow-text">CONTACT ME</h5>
+	<br>
+	<div class="row center" id="contact_card">
+		<div>
+			<i class="material-icons circle">mail_outline</i>	medatiyah@gmail.com
+		</div><br>
 
-	<%= form_for @contact do |f| %>
-		<%= f.label :name %><br>
-		<%= f.text_field :name, required: true %>
+		<div>
+			<i class="material-icons">phone_android</i>	(424) 888-0710
+		</div><br>
 
-		<br>
+		<div>
+			<i class="material-icons">location_city</i> Dallas, TX 75201
+		</div><br><br>
+		<hr width="25%">
+	
+    <div class="icons yellow_btn">
+    	<a class="yellow-text text-lighten-3" href="https://www.twitter.com/ahmad_atiyah" target="_blank">
+    	<i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+			<a class="yellow-text text-lighten-3" href="https://www.linkedin.com/in/ahmadatiyah" target="_blank">
+      	<i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a class="yellow-text text-lighten-3" href="https://www.github.com/aatiyah" target="_blank">
+      	<i class="fa fa-github-alt" aria-hidden="true"></i>
+      </a>
+    </div>
+	</div>
 
-		<%= f.label :email %><br>
-		<%= f.email_field :email, required: true %>
 
-		<br>
+	<div id="contact_form">
+		<h5 class="page_title center yellow-text">Have questions/comments?</h5><br>
 
-		<%= f.label :message %><br>
-		<%= f.text_area :message, as: :text %>
+		<%= form_for @contact do |f| %>
+			<%= f.label :name, class: "yellow-text text-lighten-3" %><br>
+			<%= f.text_field :name, required: true %>
 
-		<div class="hide">
-			<%= f.label :nickname %><br>
-			<%= f.text_field :nickname, hint: 'leave this field blank' %>
-		</div>
+			<br>
 
-		<%= f.submit 'Send Message', class: "btn waves-effect waves-light yellow" %>
-	<% end %>
+			<%= f.label :email, class: "yellow-text text-lighten-3" %><br>
+			<%= f.email_field :email, required: true %>
+
+			<br>
+
+			<%= f.label :message, class: "yellow-text text-lighten-3" %><br>
+			<%= f.text_area :message, as: :text %>
+
+			<div class="hide">
+				<%= f.label :nickname %><br>
+				<%= f.text_field :nickname, hint: 'leave this field blank' %>
+			</div>
+			
+			<div class="yellow_btn center">
+				<br>
+				<%= f.submit 'Send Message', class: "btn waves-effect waves-light yellow" %>
+			</div>
+		<% end %>
+	</div>	
 </div>

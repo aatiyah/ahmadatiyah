@@ -79,6 +79,7 @@ nav {
 
 		a:hover {
 		color: white;
+		text-shadow: 1px 1px 2px black;
 		}
 	}
 }
@@ -86,6 +87,7 @@ nav {
 .topnav {
 	a:hover {
 		color: $accent-color;
+		text-shadow: 1px 4px 2px black; 
 	}
 }
 
@@ -103,6 +105,13 @@ footer.page-footer {
 
 	a {
 		font-size: large;		
+	}
+}
+
+#footer_icons {
+	a:hover {
+		color: $accent-color !important;
+		text-shadow: 1px 1px 2px black; 
 	}
 }
 
@@ -142,8 +151,6 @@ footer.page-footer {
 	.card .card-action {
 		border-top: 2px solid rgba(255, 255, 255, 0.4);
 	}
-
-	margin-bottom: 200px;
 }
 
 .pagination {
@@ -212,15 +219,50 @@ h5, h6 {
 			color: white !important;
 		}
 	}
+
+	input {
+		color: $primary-color-dark !important;
+		margin: 8px;
+
+		&:hover {
+			color: white !important;
+		}
+	}
 }
 
-#project-show, .share_links {
+#project-show {
 	.fa {
 		font-size: xx-large;
 	}
 
 	img {
 		max-width: 100%;
+	}
+}
+
+#error-show {
+	p {
+		font-size: 16px;
+	}
+}
+
+.share_links {
+	.fa {
+		font-size: x-large;
+		vertical-align: middle;
+	}	
+}
+
+#contact_card {
+	i { 
+		vertical-align: middle;
+	}
+}
+
+.icons {
+	a {
+		padding: 7px;
+		font-size: x-large;
 	}
 }
 

@@ -10,7 +10,9 @@
 	</div>
 
 	<% if user_signed_in? %>
-		<%= link_to 'New Project', new_project_path %>
+		<div class="yellow_btn">
+			<%= link_to 'New Project', new_project_path, class: "waves-effect yellow btn" %>
+		</div>
 	<% end %>
 
 	<%= will_paginate @projects, class: "pagination center" %>

@@ -1,18 +1,21 @@
 <div class="narrow-margin" id="article-show">
 	<div id="article">
 		<h5 class="yellow-text page_title center"><%= @article.title %></h5>
+		<h6 class="date center"><em class="grey-text text-lighten-1"><%= @article.created_at.strftime('%B %d, %Y') %></em></h6>
 		<p><%= markdown(@article.content) %></p>
+
+		<div class="share_links center">
+			<a onclick="javascript:window.open('http://twitter.com/share?text=<%= @article.title %> by @ahmad_atiyah - &amp;url=<%= url_for([@article, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);">Share on Twitter <i class="fa fa-twitter"></i></a>
+		</div>
 
 		<div class="yellow_btn center">
 			<div class="admin_links">	
 				<% if user_signed_in? %>
-					<%= link_to 'Edit', edit_article_path(@article), class: "waves-effect btn yellow" %>
-					<%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect btn yellow" %>
+					<hr width="50%">
+					<%= link_to 'Edit', edit_article_path(@article), class: "waves-effect yellow btn" %> 
+					<%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class: "waves-effect yellow btn" %>
 				<% end %>
 			</div>
-		</div>
-		<div class="share_links center">
-			<a onclick="javascript:window.open('http://twitter.com/share?text=<%= @article.title %> by @ahmad_atiyah - &amp;url=<%= url_for([@article, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);"><i class="fa fa-twitter"></i></a>
 		</div>
 	<br>	
 		<%= render "disqus" %>
